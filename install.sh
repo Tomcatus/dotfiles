@@ -14,4 +14,5 @@ curl -fsSL https://starship.rs/install.sh | sh -s -- --yes
 
 # Copy needed files
 cp ~/dotfiles/zshrc ~/.zshrc
+mkdir -p /.config
 cp ~/dotfiles/starship.toml ~/.config/starship.toml
